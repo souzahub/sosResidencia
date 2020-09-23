@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#151515</color>
+    <color name="colorAccent">#101010</color>
+    <color name="Black">#000000</color> // cor do fundo do edit
+</resources>

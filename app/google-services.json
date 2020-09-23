@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "553408184171",
+    "firebase_url": "https://sosrecidencia.firebaseio.com",
+    "project_id": "sosrecidencia",
+    "storage_bucket": "sosrecidencia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553408184171:android:c74eed5addd0c51c50562e",
+        "android_client_info": {
+          "package_name": "br.com.ifood.cursoandroid.ifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553408184171-h0ndb8uf4898f06liqk7e9g3jsm5k3rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.ifood.cursoandroid.ifood",
+            "certificate_hash": "61e4e4d7b43761e083cd792a504467b2a91e2afc"
+          }
+        },
+        {
+          "client_id": "553408184171-dfefsrbjubkt3t26bn82rkd8ljds0cnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDYmab9hVheU8T0blNm_OWe_3X-ac-BmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553408184171-dfefsrbjubkt3t26bn82rkd8ljds0cnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
