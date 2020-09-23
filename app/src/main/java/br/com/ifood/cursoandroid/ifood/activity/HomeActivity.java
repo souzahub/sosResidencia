@@ -64,7 +64,7 @@ public class HomeActivity extends AppCompatActivity {
         recuperarEmpresas();
 
         //Configuração do search view
-        searchView.setHint("Pesquisar restaurantes");
+        searchView.setHint("Pesquisar Serviços");
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {

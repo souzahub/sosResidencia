@@ -14,9 +14,6 @@ import br.com.ifood.cursoandroid.ifood.R;
 import br.com.ifood.cursoandroid.ifood.model.ItemPedido;
 import br.com.ifood.cursoandroid.ifood.model.Pedido;
 
-/**
- * Created by jamiltondamasceno
- */
 
 public class AdapterPedido extends RecyclerView.Adapter<AdapterPedido.MyViewHolder> {
 

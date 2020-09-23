@@ -13,9 +13,7 @@ import java.util.List;
 import br.com.ifood.cursoandroid.ifood.R;
 import br.com.ifood.cursoandroid.ifood.model.Produto;
 
-/**
- * Created by Jamilton
- */
+
 
 public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.MyViewHolder>{
 
