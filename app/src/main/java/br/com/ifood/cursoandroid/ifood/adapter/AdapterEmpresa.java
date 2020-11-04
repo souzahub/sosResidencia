@@ -3,12 +3,14 @@ package br.com.ifood.cursoandroid.ifood.adapter;
 import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -44,7 +46,10 @@ public class AdapterEmpresa extends RecyclerView.Adapter<AdapterEmpresa.MyViewHo
 
         //Carregar imagem
         String urlImagem = empresa.getUrlImagem();
-        Picasso.get().load( urlImagem ).into( holder.imagemEmpresa );
+        Log.i("teste", urlImagem);
+        //Picasso.get().load(urlImagem).into(holder.imagemEmpresa);
+        //Picasso.get().load( urlImagem ).into( holder.imagemEmpresa );
+        Glide.with(holder.itemView).load(urlImagem).into(holder.imagemEmpresa);
 
     }
 
@@ -68,7 +73,7 @@ public class AdapterEmpresa extends RecyclerView.Adapter<AdapterEmpresa.MyViewHo
             categoria = itemView.findViewById(R.id.textCategoriaEmpresa);
             tempo = itemView.findViewById(R.id.textTempoEmpresa);
             entrega = itemView.findViewById(R.id.textEntregaEmpresa);
-            imagemEmpresa = itemView.findViewById(R.id.imageEmpresa);
+            imagemEmpresa = itemView.findViewById(R.id.imagemEmpresa);
 
         }
     }

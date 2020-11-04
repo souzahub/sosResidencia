@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/imageEmpresa"
+            android:id="@+id/imagemEmpresa"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/perfil" />
