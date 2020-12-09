@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -158,7 +159,6 @@ public class CardapioActivity extends AppCompatActivity {
                 pedidoRecuperado.setEndereco( usuario.getEndereco() );
                 pedidoRecuperado.setItens( itensCarrinho );
                 pedidoRecuperado.salvar();
-
 
             }
         });

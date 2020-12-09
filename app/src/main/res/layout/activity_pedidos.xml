@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgroung_gradient"
     tools:context="br.com.ifood.cursoandroid.ifood.activity.PedidosActivity">
 
     <include

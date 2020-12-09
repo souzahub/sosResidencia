@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgroung_gradient"
     tools:context="br.com.ifood.cursoandroid.ifood.activity.NovoProdutoEmpresaActivity">
 
     <include
@@ -32,7 +33,7 @@
             android:id="@+id/editProdutoDescricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/bg_edit_text"
             android:ems="10"
             android:hint="Descrição"
@@ -43,7 +44,7 @@
             android:id="@+id/editProdutoPreco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/bg_edit_text"
             android:ems="10"
             android:hint="Preço"
@@ -54,6 +55,8 @@
             android:id="@+id/buttonAcesso2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FF99CC00"
             android:onClick="validarDadosProduto"
             android:padding="16dp"
             android:text="Salvar"

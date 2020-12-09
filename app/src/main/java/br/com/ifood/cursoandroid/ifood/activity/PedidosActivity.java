@@ -79,7 +79,7 @@ public class PedidosActivity extends AppCompatActivity {
                             }
 
                             @Override
-                            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                            public void onItemClick(AdapterView<?> parent, View view, int positiopn, long id) {
 
                             }
                         }
@@ -117,7 +117,6 @@ public class PedidosActivity extends AppCompatActivity {
                     adapterPedido.notifyDataSetChanged();
                     dialog.dismiss();
                 }
-
             }
 
             @Override

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/backgroung_gradient"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
@@ -12,10 +12,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        app:srcCompat="@drawable/logo"
-        android:layout_marginBottom="20dp"/>
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/logososnova" />
 
     <EditText
         android:id="@+id/editCadastroEmail"
@@ -31,7 +31,7 @@
         android:id="@+id/editCadastroSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-2dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/bg_edit_text"
         android:ems="10"
         android:hint="Senha"
@@ -102,8 +102,10 @@
         android:id="@+id/buttonAcesso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Acessar"
+        android:background="#FF99CC00"
         android:padding="16dp"
-        android:theme="@style/botaoPadrao"/>
+        android:text="Acessar"
+        android:textColor="#ffffff"
+        android:theme="@style/botaoPadrao" />
 
 </LinearLayout>

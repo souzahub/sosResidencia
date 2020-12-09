@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgroung_gradient"
     tools:context="br.com.ifood.cursoandroid.ifood.activity.ConfiguracoesUsuarioActivity">
 
     <include
@@ -32,7 +33,7 @@
             android:id="@+id/editUsuarioEndereco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/bg_edit_text"
             android:ems="10"
             android:hint="Endereço completo"
@@ -41,8 +42,10 @@
 
         <Button
             android:id="@+id/buttonAcesso2"
+            android:layout_marginTop="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FF99CC00"
             android:onClick="validarDadosUsuario"
             android:padding="16dp"
             android:text="Salvar"
